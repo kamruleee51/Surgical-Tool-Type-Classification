@@ -13,7 +13,7 @@ Another point to be noted that the training images are not balanced which are li
 
 To overcome this class unbalance, following code has been used. <br>
 def get_class_weights(y):<br>
-    counter = Counter(y)<br>
+  $\;\;\;\;\;\;$ counter = Counter(y)<br>
     majority = max(counter.values())<br>
     return  {cls: round(float(majority)/float(count), 2) for cls, count in counter.items()}
 
