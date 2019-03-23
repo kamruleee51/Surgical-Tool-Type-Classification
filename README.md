@@ -7,7 +7,7 @@ To implement this DCNN classification Network, VGG16 has been used. VGG16 was fi
 
 To overcome overfitting due to limited numbers of training images, first 10 layers of VGG16 (See the figure below) which is block2_pool has been frozen. Because at the beginning layers of DCNN, only low label of features are learning.  
 
-Another point to be noted that the training images are not balanced which are like below- 
+Another point to be noted that the training images are not balanced which are like below- <br>
 {'Type01': 0, 'Type02': 1, 'Type03': 2, 'Type04': 3, 'Type05': 4}
 {0: 1.0, 1: 1.72, 2: 1.47, 3: 14.0, 4: 5.89}
 
