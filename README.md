@@ -1,5 +1,4 @@
 # Surgical-Tool-Type-Classification
-# Surgical-Tool-Type-Classification
 ## Written by-
 ### Md. Kamrul Hasan 
 ### Erasmus Scholar on Medical Imaging and Application (MAIA) [http://maiamaster.udg.edu/]
