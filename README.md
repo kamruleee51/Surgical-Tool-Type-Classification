@@ -12,8 +12,5 @@ Another point to be noted that the training images are not balanced which are li
 {0: 1.0, 1: 1.72, 2: 1.47, 3: 14.0, 4: 5.89}
 
 To overcome this class unbalance, following code has been used. <br>
-def get_class_weights(y):<br>
-  $\;\;\;\;\;\;$ counter = Counter(y)<br>
-    majority = max(counter.values())<br>
-    return  {cls: round(float(majority)/float(count), 2) for cls, count in counter.items()}
+![classBalance](https://user-images.githubusercontent.com/32570071/54871748-b3107700-4db9-11e9-95ec-81c618eba2af.PNG)
 
